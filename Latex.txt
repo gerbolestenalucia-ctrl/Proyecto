@@ -1,0 +1,26 @@
+cursiva: \emph{}
+negrita: \textbf{}
+lista sin ordenar
+\begin{itemize}
+	\item Primera cosa
+	\item Segunda cosa
+		\begin{itemize}
+			\item Otra lista
+\end{itemize}
+
+lista ordenada
+\begin{enumerate}
+	\item Primera cosa
+	\item Segunda cosa
+		\begin{enumerate}
+			\item Otra lista
+\end{enumerate}
+
+\ref hago referencia a otro sitio del documento
+\href enlace de internet
+
+imagen:
+\begin{figure}[h] 
+la h es que priorice si hay hueco ponerla abajo
+
+help -> documentacion para mirar como hacer las cosas
