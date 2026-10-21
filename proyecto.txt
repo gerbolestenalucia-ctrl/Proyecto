@@ -1,0 +1,3 @@
+completar objetivos para ganar habilidades, minijuegos de 30 segundos
+checkpoint en cada mundo, cada mundo tiene niveles
+pixelorama
