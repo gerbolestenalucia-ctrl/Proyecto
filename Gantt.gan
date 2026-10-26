@@ -11,8 +11,8 @@
         <option id="filter.inProgressTodayTasks" value="false"/>
     </view>
     <view id="resource-table">
-        <field id="0" name="Nombre" width="199" order="0"/>
-        <field id="1" name="Función" width="82" order="1"/>
+        <field id="0" name="Nombre" width="206" order="0"/>
+        <field id="1" name="Función" width="90" order="1"/>
     </view>
     <!-- -->
     <calendars>
