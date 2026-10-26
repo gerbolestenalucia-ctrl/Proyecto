@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2026-09-25" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.3.3316" locale="es_ES">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2027-02-11" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.3.3322" locale="es_ES">
     <description/>
     <view zooming-state="default:2" id="gantt-chart">
         <field id="tpd3" name="Nombre" width="200" order="0"/>
@@ -38,7 +38,19 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
+        <task id="13" uid="da10183367834e84b0228571c5a7f8a1" name="Documentación Proyecto" meeting="false" start="2026-09-28" duration="128" complete="0" expand="false">
+            <task id="49" uid="2139c4be042048bba1072aa4bd5e5575" name="Redacción de la introducción y objetivos" meeting="false" start="2026-10-01" duration="33" complete="0" expand="true"/>
+            <task id="51" uid="757944f2b1644321833db7923670ff9b" name="Documentación de pruebas" meeting="false" start="2027-01-25" duration="6" complete="0" expand="true"/>
+            <task id="48" uid="671b9181f17d4e8fa7832691c5b5ed88" name="Documentación de requisitos y mecánicas" meeting="false" start="2026-09-28" duration="23" complete="0" expand="true"/>
+            <task id="47" uid="43bab9ccbc3042918fd4461a561aabbb" name="Documentación del diseño del juego" meeting="false" start="2026-09-28" duration="85" complete="0" expand="true"/>
+            <task id="46" uid="61019c50d7234c749211975f8da3f0cb" name="Documentación de diagramas" meeting="false" start="2026-09-28" duration="45" complete="0" expand="true"/>
+            <task id="50" uid="4c83ea7e4cb444dc998fe7b2e4f8e025" name="Elaboración del manual de usuario" meeting="false" start="2026-11-16" duration="49" complete="0" expand="true"/>
+            <task id="54" uid="56528e3b45714b3ba20eca452ff67909" name="Revisión y corrección" meeting="false" start="2027-01-25" duration="25" complete="0" expand="true"/>
+            <task id="53" uid="065ecfac073b49eabe45e63ef17ba7ee" name="Preparación de la presentación" meeting="false" start="2027-02-25" duration="20" complete="0" expand="true"/>
+            <task id="55" uid="26edf4ec9ca44544a0846a721faf0cb8" name="Entrega del proyecto" meeting="false" start="2027-03-24" duration="1" complete="0" expand="true"/>
+        </task>
         <task id="0" uid="f2261e16beb046d69802cbce7c720fa0" name="Planificación" meeting="false" start="2026-09-28" duration="21" complete="0" expand="false">
+            <depend id="11" type="2" difference="0" hardness="Strong"/>
             <task id="1" uid="3a9706b7f8d245d482feb324dd601d71" name="Descripción mecánicas" meeting="false" start="2026-09-28" duration="2" complete="0" expand="true">
                 <depend id="2" type="2" difference="0" hardness="Strong"/>
             </task>
@@ -62,9 +74,69 @@
             </task>
             <task id="10" uid="16cde865d01b482cbaba5de2ee5eecd4" name="Diagrama de estados de máquina" meeting="false" start="2026-10-22" duration="3" complete="0" expand="true"/>
         </task>
-        <task id="11" uid="81dcc0d44784444eabb1ffed6d65e8a0" name="Desarrollo" meeting="false" start="2026-09-25" duration="1" complete="0" expand="true"/>
-        <task id="12" uid="dbf02678e7384b8ea0f4f2ac0121abb3" name="Diseño de pruebas" meeting="false" start="2026-09-25" duration="1" complete="0" expand="true"/>
-        <task id="13" uid="1502ebe49af54e799abb5585e43d4e52" name="Documentacion" meeting="false" start="2026-09-25" duration="1" complete="0" expand="true"/>
+        <task id="11" uid="44c84194c2cb49daa067a22e4b1ba055" name="Desarrollo" meeting="false" start="2026-11-16" duration="49" complete="0" expand="false">
+            <depend id="12" type="2" difference="0" hardness="Strong"/>
+            <task id="27" uid="e3d1f288b03a418e9568d629e9b8de18" name="Diseñar habitaciones sotano" meeting="false" start="2026-11-16" duration="10" complete="0" expand="true">
+                <depend id="17" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="26" uid="f0d08a483ace4da9b1698de59af52d9b" name="Diseñar habitaciones arriba" meeting="false" start="2026-11-16" duration="10" complete="0" expand="true">
+                <depend id="16" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="28" uid="a650a50bc2014b748972a3087da53dc0" name="Diseñar habitaciones medio" meeting="false" start="2026-11-16" duration="10" complete="0" expand="true">
+                <depend id="29" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="17" uid="eb4408d7f32a42828558194187da6af8" name="Animar NPC" meeting="false" start="2026-11-30" duration="13" complete="0" expand="true">
+                <depend id="23" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="16" uid="1e5104ef41a6413086cd56b87591d7ee" name="Programar objetos interactivos" meeting="false" start="2026-11-30" duration="15" complete="0" expand="true">
+                <depend id="20" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="29" uid="7b3118e01e5c4fb9958daf627bce48e4" name="Programar pistas" meeting="false" start="2026-11-30" duration="17" complete="0" expand="true">
+                <depend id="18" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="18" uid="49628a3c0e6f42829a117b06e74f03c4" name="Escribir historia y diálogos" meeting="false" start="2026-12-23" duration="7" complete="0" expand="true">
+                <depend id="21" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="23" uid="386b673556fe40d1b8297b3b3f254ae0" name="Diseñar mapa" meeting="false" start="2026-12-17" duration="6" complete="0" expand="true">
+                <depend id="19" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="20" uid="d9f49e63a979429c811e5df88d78f81d" name="Diseñar Puzzles" meeting="false" start="2026-12-21" duration="11" complete="0" expand="true">
+                <depend id="22" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="21" uid="35264cb45cd1444f8423476a85ddaea4" name="Programar guardar partida" meeting="false" start="2027-01-01" duration="12" complete="0" expand="true"/>
+            <task id="22" uid="1ba979bbd5054a2991907ee54446d3bb" name="Programar inventario" meeting="false" start="2027-01-05" duration="13" complete="0" expand="true"/>
+            <task id="19" uid="1472a37b61e0411bacd497e37365585f" name="Añadir sonidos y música" meeting="false" start="2026-12-25" duration="9" complete="0" expand="true"/>
+        </task>
+        <task id="12" uid="749f20c3df6b448b9a26e71b5d02b860" name="Diseño Pruebas" meeting="false" start="2027-01-25" duration="24" complete="0" expand="false">
+            <task id="30" uid="7d8e1ee9bd5542a59f16c39adaa6a091" name="Pruebas de interacción" meeting="false" start="2027-01-25" duration="6" complete="0" expand="true">
+                <depend id="35" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="32" uid="e9bfdf2113f74f4ebf1a62c0e6058854" name="Pruebas del inventario" meeting="false" start="2027-01-25" duration="6" complete="0" expand="true">
+                <depend id="38" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="33" uid="9ad998010853481c8ebf289f79e57064" name="Pruebas de guardado y carga" meeting="false" start="2027-01-25" duration="6" complete="0" expand="true">
+                <depend id="37" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="35" uid="241958aa6614485581a9573225211a0a" name="Pruebas de puzzles" meeting="false" start="2027-02-02" duration="6" complete="0" expand="true">
+                <depend id="40" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="37" uid="1abc649ff8f643e2996707d2bf1be6ea" name="Pruebas de NPC y ente" meeting="false" start="2027-02-02" duration="6" complete="0" expand="true">
+                <depend id="41" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="38" uid="73a768549073433699cf1d05e8452c15" name="Pruebas de enemigos" meeting="false" start="2027-02-02" duration="6" complete="0" expand="true">
+                <depend id="42" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="40" uid="c26f5341836d4b4992ccd6db1a961c8e" name="Pruebas de diálogos y pistas" meeting="false" start="2027-02-10" duration="6" complete="0" expand="true">
+                <depend id="43" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="41" uid="0110cd5d6c3247f3bd34f0e439d639e5" name="Pruebas de sonido y música" meeting="false" start="2027-02-10" duration="6" complete="0" expand="true">
+                <depend id="43" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="42" uid="507d001e371e4ff49bd25ca16b61e950" name="Corrección de errores detectados" meeting="false" start="2027-02-10" duration="6" complete="0" expand="true">
+                <depend id="43" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="43" uid="c6471addf7374d498b32a7fe15076bf8" name="Pruebas finales" meeting="false" start="2027-02-18" duration="6" complete="0" expand="true"/>
+        </task>
     </tasks>
     <resources>
         <resource id="0" name="Luna Pemán" function="Default:0" contacts="" phone=""/>
@@ -79,6 +151,21 @@
         <allocation task-id="8" resource-id="0" function="Default:0" responsible="false" load="30.0"/>
         <allocation task-id="9" resource-id="0" function="Default:0" responsible="false" load="40.0"/>
         <allocation task-id="10" resource-id="0" function="Default:0" responsible="false" load="40.0"/>
+        <allocation task-id="16" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="27" resource-id="0" function="Default:0" responsible="false" load="33.0"/>
+        <allocation task-id="26" resource-id="0" function="Default:0" responsible="false" load="33.0"/>
+        <allocation task-id="28" resource-id="0" function="Default:0" responsible="false" load="33.0"/>
+        <allocation task-id="20" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="22" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="33" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="37" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="41" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="43" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="55" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="48" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="50" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="54" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="53" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="5" resource-id="1" function="Default:0" responsible="false" load="30.0"/>
         <allocation task-id="1" resource-id="1" function="Default:0" responsible="false" load="30.0"/>
         <allocation task-id="4" resource-id="1" function="Default:0" responsible="false" load="50.0"/>
@@ -86,6 +173,21 @@
         <allocation task-id="8" resource-id="1" function="Default:0" responsible="false" load="40.0"/>
         <allocation task-id="9" resource-id="1" function="Default:0" responsible="false" load="40.0"/>
         <allocation task-id="10" resource-id="1" function="Default:0" responsible="false" load="30.0"/>
+        <allocation task-id="17" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="19" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="27" resource-id="1" function="Default:0" responsible="false" load="33.0"/>
+        <allocation task-id="26" resource-id="1" function="Default:0" responsible="false" load="33.0"/>
+        <allocation task-id="28" resource-id="1" function="Default:0" responsible="false" load="33.0"/>
+        <allocation task-id="23" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="30" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="35" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="40" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="43" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="55" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="47" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="46" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="54" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="53" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="3" resource-id="2" function="Default:0" responsible="false" load="50.0"/>
         <allocation task-id="1" resource-id="2" function="Default:0" responsible="false" load="30.0"/>
         <allocation task-id="4" resource-id="2" function="Default:0" responsible="false" load="50.0"/>
@@ -93,6 +195,21 @@
         <allocation task-id="8" resource-id="2" function="Default:0" responsible="false" load="30.0"/>
         <allocation task-id="9" resource-id="2" function="Default:0" responsible="false" load="20.0"/>
         <allocation task-id="10" resource-id="2" function="Default:0" responsible="false" load="30.0"/>
+        <allocation task-id="18" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="27" resource-id="2" function="Default:0" responsible="false" load="33.0"/>
+        <allocation task-id="26" resource-id="2" function="Default:0" responsible="false" load="33.0"/>
+        <allocation task-id="28" resource-id="2" function="Default:0" responsible="false" load="33.0"/>
+        <allocation task-id="29" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="21" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="32" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="38" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="42" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="43" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="55" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="49" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="51" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="54" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="53" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
     </allocations>
     <vacations/>
     <previous/>
